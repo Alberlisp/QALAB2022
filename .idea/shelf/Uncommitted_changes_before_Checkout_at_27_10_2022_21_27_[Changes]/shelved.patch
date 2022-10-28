@@ -1,0 +1,13 @@
+Index: POO_Game/src/Main.java
+===================================================================
+diff --git a/POO_Game/src/Main.java b/POO_Game/src/Main.java
+--- a/POO_Game/src/Main.java	
++++ b/POO_Game/src/Main.java	
+@@ -1,6 +1,7 @@
+ public class Main {
+     public static void main(String[] args) {
+ 
++//EDITADO POR ALBERLIS PEREZ
+ 
+         Toyota toyo = new Toyota("PAS201"); //200
+         toyo.encenderMotor();

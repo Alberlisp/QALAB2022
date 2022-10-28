@@ -1,0 +1,14 @@
+Index: AppArrays/src/Main.java
+===================================================================
+diff --git a/AppArrays/src/Main.java b/AppArrays/src/Main.java
+--- a/AppArrays/src/Main.java	
++++ b/AppArrays/src/Main.java	
+@@ -21,7 +21,7 @@
+ 
+ 
+         //Hacer doble bucle for/for
+-
++        String user = config[XPROD][CUSER];
+ 
+         //CLAVE: DESARROLLO
+ 
