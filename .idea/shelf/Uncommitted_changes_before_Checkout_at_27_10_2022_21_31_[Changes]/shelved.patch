@@ -1,0 +1,19 @@
+Index: POO_Game/src/Main.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>public class Main {\r\n    public static void main(String[] args) {\r\n\r\n\r\n        Toyota toyo = new Toyota(\"PAS201\"); //200\r\n        toyo.encenderMotor();\r\n        toyo.avanzar();\r\n        System.out.println(\"Velocidad Máxima: \" + toyo.getdVelocidadMaxima());\r\n\r\n        Toyota toyo2 = new Toyota(\"ASP120\");\r\n        toyo2.setdVelocidadMaxima(300);\r\n        System.out.println(\"Velocidad Máxima: \" + toyo2.getdVelocidadMaxima());\r\n\r\n\r\n        System.out.println(\"========================================== \");\r\n\r\n        Nissan nis = new Nissan(); // 220\r\n        nis.encenderMotor();\r\n        nis.avanzar();\r\n\r\n        System.out.println(\"Velocidad Máxima: \" + nis.getdVelocidadMaxima());\r\n\r\n/*\r\n        Auto auto1 = new Auto();\r\n\r\n        auto1.encenderMotor();\r\n        auto1.avanzar();\r\n        auto1.avanzar();\r\n        auto1.avanzar();\r\n        auto1.avanzar();\r\n        auto1.avanzar();\r\n        auto1.avanzar();\r\n        auto1.avanzar();\r\n        auto1.avanzar();\r\n        auto1.avanzar();\r\n        auto1.avanzar();\r\n        auto1.avanzar();\r\n        auto1.avanzar();\r\n        auto1.avanzar(); auto1.avanzar();\r\n        auto1.avanzar();\r\n        auto1.avanzar();\r\n        //auto1.frenarHastaDetener();\r\n*/\r\n\r\n\r\n\r\n\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/POO_Game/src/Main.java b/POO_Game/src/Main.java
+--- a/POO_Game/src/Main.java	(revision bf9cdd2fb61b20348b0117b73e707899a8d09774)
++++ b/POO_Game/src/Main.java	(date 1666917036975)
+@@ -1,7 +1,7 @@
+ public class Main {
+     public static void main(String[] args) {
+ 
+-
++           //EDITADO POR ALBERLIS PEREZ
+         Toyota toyo = new Toyota("PAS201"); //200
+         toyo.encenderMotor();
+         toyo.avanzar();
